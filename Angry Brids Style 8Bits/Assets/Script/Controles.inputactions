@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "Controles",
+    "maps": [
+        {
+            "name": "Mecanica",
+            "id": "2c332633-f431-4c00-be6f-3c1471a1e0e1",
+            "actions": [
+                {
+                    "name": "Presionado",
+                    "type": "Button",
+                    "id": "52eb08ad-11ed-4413-b57e-0fd3449ffb41",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Posicion",
+                    "type": "Value",
+                    "id": "b6d73cf2-5579-4738-a20e-65917a60d5c3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe4f7e74-9047-4502-aa33-bec132a45693",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Presionado",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b1eba88-202d-4a4e-89b8-c8e679474901",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Posicion",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
